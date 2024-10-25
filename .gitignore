@@ -71,4 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /[Aa]ssets/ThunderWire Studio
+/[Aa]ssets/[Mm]aterials
 /[Aa]ssets/Test
+/[Aa]ssets/Test.meta
