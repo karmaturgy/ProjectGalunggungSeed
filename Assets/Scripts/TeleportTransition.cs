@@ -104,7 +104,7 @@ public class TeleportTransition : MonoBehaviour
                     onFadeOut.Invoke();
                 }
 
-                fadePanel.alpha += Time.deltaTime;
+                fadePanel.alpha += Time.deltaTime / fadeDuration;
 
                 if (fadePanel.alpha >= 1f)
                 {
@@ -129,7 +129,7 @@ public class TeleportTransition : MonoBehaviour
 
             if (!fade && fadePanel.alpha >= 0f)
             {
-                fadePanel.alpha -= Time.deltaTime;
+                fadePanel.alpha -= Time.deltaTime / fadeDuration;
 
                 if (fadePanel.alpha <= 0)
                 {

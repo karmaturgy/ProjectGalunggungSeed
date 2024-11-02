@@ -12,8 +12,16 @@ public class TimeOfDayManager : MonoBehaviour
     {
         public string name; // e.g., "Morning", "Afternoon", "Evening"
         public Material skyboxMaterial;
+
         public float lightIntensity;
         public Vector3 lightRotation;
+        public Color colorFilter = Color.white;
+        public float colorTemperature;
+
+        public bool fogEnabled;
+        public Color fogColor;
+        public FogMode fogMode;
+        public float fogDensity;
     }
 
     private void Awake()
@@ -51,9 +59,17 @@ public class TimeOfDayManager : MonoBehaviour
             {
                 // Apply the settings
                 RenderSettings.skybox = timeOfDay.skyboxMaterial;
+
                 directionalLight.intensity = timeOfDay.lightIntensity;
                 directionalLight.transform.eulerAngles = timeOfDay.lightRotation;
+                directionalLight.useColorTemperature = true;
+                directionalLight.colorTemperature = timeOfDay.colorTemperature;
+                directionalLight.color = timeOfDay.colorFilter;
 
+                RenderSettings.fog = timeOfDay.fogEnabled;
+                RenderSettings.fogColor = timeOfDay.fogColor;
+                RenderSettings.fogMode = timeOfDay.fogMode;
+                RenderSettings.fogDensity = timeOfDay.fogDensity;
                 return;
             }
         }
