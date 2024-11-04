@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb5bd7e8a706a41b793e7440b34eea, type: 3}
+  m_Name: Kakek Tua New
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - DialogueAudio: {fileID: 8300000, guid: 1ef6a489d92243a45bce9c13e7aefcdd, type: 3}
+    SubtitleType: 1
+    SingleSubtitle:
+      Time: 0
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: 
+        NormalText: 
+    Subtitles:
+    - Time: 0
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.9215143, b: 1, a: 1}
+      Text:
+        GlocText: Ah, terima kasih, Anak Muda. Kau benar-benar menepati janjimu.
+          Sekarang, aku juga akan menepati janjiku.
+        NormalText: 
+    - Time: 8.579774
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.92156863, b: 1, a: 1}
+      Text:
+        GlocText: Siki Kahuripan... bukan sekadar benih biasa. Ia punya kekuatan
+          yang besar...
+        NormalText: 
+    - Time: 13.768916
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.92156863, b: 1, a: 1}
+      Text:
+        GlocText: Namun juga kutukan yang mengerikan bagi mereka yang tak punya hati
+          yang bersih.
+        NormalText: 
+    - Time: 19.075993
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.92156863, b: 1, a: 1}
+      Text:
+        GlocText: Banyak yang mencarinya, tapi tak banyak yang kembali.
+        NormalText: 
+    - Time: 23.085785
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.92156863, b: 1, a: 1}
+      Text:
+        GlocText: Jika kau benar-benar ingin menemukannya, pergilah ke Gunung Galunggung.
+          Di sana, ada gua tua yang tersembunyi.
+        NormalText: 
+    - Time: 29.926016
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.92156863, b: 1, a: 1}
+      Text:
+        GlocText: Tapi hati-hati... gua itu tak akan terbuka untuk sembarang orang.
+        NormalText: 
+    - Time: 34.40755
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.92156863, b: 1, a: 1}
+      Text:
+        GlocText: Ingatlah, Aji. Kau mungkin sedang mencari kekuatan dari benih itu,
+          tapi yang akan menentukan nasibmu adalah apa yang kau bawa di dalam hatimu.
+        NormalText: 
+    - Time: 44.31409
+      Narrator: Fafnir
+      NarratorColor: {r: 0, g: 0.92156863, b: 1, a: 1}
+      Text:
+        GlocText: Kekuatan besar datang dengan tanggung jawab yang lebih besar. Jangan
+          biarkan keinginanmu membutakan akal sehatmu, Nak.
+        NormalText: 

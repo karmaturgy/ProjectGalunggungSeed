@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb5bd7e8a706a41b793e7440b34eea, type: 3}
+  m_Name: ZJ Comp
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - DialogueAudio: {fileID: 8300000, guid: d71dd4620dfc45c408ad3163ed3e62ee, type: 3}
+    SubtitleType: 1
+    SingleSubtitle:
+      Time: 0
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: 
+        NormalText: 
+    Subtitles:
+    - Time: 0
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Ah...
+        NormalText: 
+    - Time: 1.207713
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Ini kunciku?
+        NormalText: 
+    - Time: 2.9358222
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Ya, ini dia!
+        NormalText: 
+    - Time: 4.7817574
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Terima kasih banyak manusia...
+        NormalText: 
+    - Time: 7.5702977
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Sekarang aku bisa pulang dan istirahat...
+        NormalText: 
+    - Time: 10.280288
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Mungkin tidur lagi selama beberapa abad...
+        NormalText: 
+    - Time: 13.304481
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Sebagai rasa terima kasihku, ini hadiah untukmu...
+        NormalText: 
+    - Time: 21.070362
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Tolong carikan, ya?
+        NormalText: 

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb5bd7e8a706a41b793e7440b34eea, type: 3}
+  m_Name: Ultah Wahyu
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - DialogueAudio: {fileID: 8300000, guid: 5de5f58ed6a3c034b81513d593ff8458, type: 3}
+    SubtitleType: 1
+    SingleSubtitle:
+      Time: 0
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: 
+        NormalText: 
+    Subtitles:
+    - Time: 0
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8768995, b: 1, a: 1}
+      Text:
+        GlocText: Selamat ulang tahun, Kakak Wahyu!
+        NormalText: 
+    - Time: 2.6384447
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8784314, b: 1, a: 1}
+      Text:
+        GlocText: Semoga di usia yang baru ini, Kakak selalu diberikan kesehatan...
+        NormalText: 
+    - Time: 6.1790667
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8784314, b: 1, a: 1}
+      Text:
+        GlocText: kebahagiaan, dan kesuksesan yang berlimpah.
+        NormalText: 
+    - Time: 9.719689
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8784314, b: 1, a: 1}
+      Text:
+        GlocText: Semoga semua harapan dan cita-citanya bisa terwujud...
+        NormalText: 
+    - Time: 12.511333
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8784314, b: 1, a: 1}
+      Text:
+        GlocText: serta terus menjadi pribadi yang inspiratif dan penuh semangat.
+        NormalText: 
+    - Time: 16.188133
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8784314, b: 1, a: 1}
+      Text:
+        GlocText: Terima kasih sudah menjadi sosok yang selalu mendukung dan memberi
+          teladan yang baik.
+        NormalText: 
+    - Time: 20.750092
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8784314, b: 1, a: 1}
+      Text:
+        GlocText: Semoga setiap langkah yang diambil selalu diberkahi dan dipermudah.
+        NormalText: 
+    - Time: 25.039692
+      Narrator: Solihin
+      NarratorColor: {r: 0, g: 0.8784314, b: 1, a: 1}
+      Text:
+        GlocText: Selamat merayakan hari spesial, Kak!
+        NormalText: 

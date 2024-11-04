@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb5bd7e8a706a41b793e7440b34eea, type: 3}
+  m_Name: Kades3
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - DialogueAudio: {fileID: 8300000, guid: 22bd85eb090a9cb47a5486975fd6191b, type: 3}
+    SubtitleType: 0
+    SingleSubtitle:
+      Time: 0
+      Narrator: Village Chief
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Tonight, I have important business with my family outside.'
+        NormalText: 
+    Subtitles:
+    - Time: 0
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: Um... I have to find my room.
+        NormalText: 
+    - Time: 5.703437
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: Kenapa terbuka tipis seperti ini?
+        NormalText: 
+    - Time: 8.296504
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: Bukankah tadi terkunci?
+        NormalText: 
+  - DialogueAudio: {fileID: 8300000, guid: 22bd85eb090a9cb47a5486975fd6191b, type: 3}
+    SubtitleType: 0
+    SingleSubtitle:
+      Time: 0
+      Narrator: Village Chief
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Don''t hesitate to use all the available facilities.'
+        NormalText: 
+    Subtitles: []
+  - DialogueAudio: {fileID: 8300000, guid: d84f7f3b6932d7c4f9fe3461cfe54474, type: 3}
+    SubtitleType: 0
+    SingleSubtitle:
+      Time: 0
+      Narrator: Village Chief
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*You can take food in the kitchen.'
+        NormalText: 
+    Subtitles: []
+  - DialogueAudio: {fileID: 8300000, guid: 22bd85eb090a9cb47a5486975fd6191b, type: 3}
+    SubtitleType: 0
+    SingleSubtitle:
+      Time: 0
+      Narrator: Village Chief
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: '*Hope everything goes well, I''ll take my leave.'
+        NormalText: 
+    Subtitles: []

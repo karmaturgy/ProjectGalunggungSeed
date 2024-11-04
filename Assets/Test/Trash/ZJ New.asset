@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb5bd7e8a706a41b793e7440b34eea, type: 3}
+  m_Name: ZJ New
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - DialogueAudio: {fileID: 8300000, guid: e02fba414ce8cd5438427cdd9ef04354, type: 3}
+    SubtitleType: 1
+    SingleSubtitle:
+      Time: 0
+      Narrator: 
+      NarratorColor: {r: 1, g: 1, b: 1, a: 1}
+      Text:
+        GlocText: 
+        NormalText: 
+    Subtitles:
+    - Time: 0
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Uhh...
+        NormalText: 
+    - Time: 1.3078156
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Hai, manusia...
+        NormalText: 
+    - Time: 3.1572511
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Bisa tolong aku?
+        NormalText: 
+    - Time: 5.1123695
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Aku kehilangan kunci peti matiku...
+        NormalText: 
+    - Time: 7.912944
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Tanpa kunci itu aku tidak bisa masuk ke dalam...
+        NormalText: 
+    - Time: 11.717497
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Aku pikir aku menjatuhkannya disekitar sini...
+        NormalText: 
+    - Time: 15.205006
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Tapi aku terlalu malas untuk mencarinya...
+        NormalText: 
+    - Time: 18.164104
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Otakku juga sedikit berkarat...
+        NormalText: 
+    - Time: 21.070362
+      Narrator: Hikaru Zonbitsu
+      NarratorColor: {r: 1, g: 0, b: 0, a: 1}
+      Text:
+        GlocText: Tolong carikan, ya?
+        NormalText: 

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5272763127354924221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10150eac725ec0e43ac5b8e14da2cfdd, type: 3}
+  m_Name: Chase
+  m_EditorClassIdentifier: 
+  RunSpeed: 15
+  ChaseStoppingDistance: 0
+  LostPlayerPatrolTime: 5
+  LostPlayerPredictTime: 1
+  VeryClosePlayerDetection: 1.5
+  AttackFOV: 30
+  AttackDistance: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0431efc0b995646896f9ad148de9b5, type: 3}
+  m_Name: OPAttacker
+  m_EditorClassIdentifier: 
+  AIStates:
+  - StateAsset: {fileID: -5272763127354924221}
+    IsEnabled: 1
+  IdleParameter: Idle
+  WalkParameter: Walk
+  RunParameter: Run
+  PatrolParameter: Patrol
+  AttackTrigger: Attack
+  AttackState: Attack 01
+  DamageRange:
+    min: 1000
+    max: 1000

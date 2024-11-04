@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55106f91a38b6d4a8120c7aec3aa82d, type: 3}
+  m_Name: TestObjectives
+  m_EditorClassIdentifier: 
+  Objectives:
+  - ObjectiveKey: Tutorial
+    ObjectiveTitle:
+      GlocText: '*Testification'
+      NormalText: Testification
+    SubObjectives:
+    - SubObjectiveKey: Testificationation
+      CompleteCount: 25
+      ObjectiveText:
+        GlocText: Kill [count]/25 Zombies!
+        NormalText: Kill [count]/25 Zombies!
+    - SubObjectiveKey: Testificatey
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: Find a key to OPE DA DOR!
+        NormalText: Find a key to OPE DA DOR!
+    - SubObjectiveKey: Testificador
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: OPE DA DOR!
+        NormalText: OPE DA DOR!
+  - ObjectiveKey: 2 Info Kahuripan
+    ObjectiveTitle:
+      GlocText: '*Informasi Tentang Siki Kahuripan'
+      NormalText: Informasi Tentang Siki Kahuripan
+    SubObjectives:
+    - SubObjectiveKey: 2.1 Kunci Rumah
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: Carilah Kunci Rumah Kakek Fafnir!
+        NormalText: Carilah Kunci Rumah Kakek Fafnir!
+  - ObjectiveKey: ZJ
+    ObjectiveTitle:
+      GlocText: '*Kunci Hikaru?'
+      NormalText: Kunci Hikaru?
+    SubObjectives:
+    - SubObjectiveKey: Kunci
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: Carilah Kunci Peti Mati milik Hiraku Zonbitsu!
+        NormalText: Carilah Kunci Peti Mati milik Hiraku Zonbitsu!
