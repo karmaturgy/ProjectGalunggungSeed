@@ -16,6 +16,7 @@ public class TeleportTransition : MonoBehaviour
     public Transform teleportDestination; // Destination transform for teleportation
     public Vector2 teleportRotation;
     public bool enableRotation = true; // Option to enable or disable rotation on teleport
+    public float playerScale = 1.0f; // Scale of the player after teleportation
 
     [Header("Time of Day Manager")]
     public TimeOfDayManager timeOfDayManager;
@@ -33,6 +34,10 @@ public class TeleportTransition : MonoBehaviour
     private bool isTeleporting = false;
     private bool fade = true;
     private string skyBox = "";
+    private Vector3 originalScale; // Store the original scale of the player
+
+    // Reference to the AudioSource component of the ambient sound
+    private AudioSource ambientAudioSource;
 
     private void OnEnable()
     {
@@ -57,6 +62,7 @@ public class TeleportTransition : MonoBehaviour
             if (playerObject != null)
             {
                 playerTransform = playerObject.transform;
+                originalScale = playerTransform.localScale; // Store the original scale of the player
             }
             else
             {
@@ -91,11 +97,29 @@ public class TeleportTransition : MonoBehaviour
                 Debug.LogError("timeOfDayManager not found! Make sure an object with TimeOfDayManager exists in the scene.");
             }
         }
+
+        // Automatically find and assign the ambient AudioSource from the GameManager
+        if (ambientAudioSource == null)
+        {
+            GameObject Ambience = GameObject.Find("GAMEMANAGER/Audios/Ambience"); // Assuming GameManager is in the scene
+            if (Ambience != null)
+            {
+                ambientAudioSource = Ambience.GetComponent<AudioSource>();
+                if (ambientAudioSource == null)
+                {
+                    Debug.LogError("The Ambience object does not have an AudioSource component!");
+                }
+            }
+            else
+            {
+                Debug.LogError("GameManager or its Audios/Ambience not found!");
+            }
+        }
     }
 
     private void Update()
     {
-        if(isTeleporting)
+        if (isTeleporting)
         {
             if (fade && fadePanel.alpha < 1f)
             {
@@ -106,14 +130,18 @@ public class TeleportTransition : MonoBehaviour
 
                 fadePanel.alpha += Time.deltaTime / fadeDuration;
 
+                // Start fading in the ambient sound when fade out reaches 100%
                 if (fadePanel.alpha >= 1f)
                 {
                     fade = false;
                     onTeleport.Invoke();
                     timeOfDayManager.ApplyTimeOfDay(skyBox);
+
+                    // Teleport and resize the player
                     if (teleportDestination != null)
                     {
                         playerTransform.position = teleportDestination.position;
+                        playerTransform.localScale = Vector3.one * playerScale;
 
                         if (enableRotation && lookController != null)
                         {
@@ -124,6 +152,9 @@ public class TeleportTransition : MonoBehaviour
                     {
                         Debug.LogError("Teleport destination is not assigned!");
                     }
+
+                    // Fade in ambient sound
+                    StartCoroutine(FadeAmbientSound(0f, 0.2f, fadeDuration));
                 }
             }
 
@@ -139,6 +170,19 @@ public class TeleportTransition : MonoBehaviour
                 }
             }
         }
+    }
+
+    private IEnumerator FadeAmbientSound(float startVolume, float endVolume, float duration)
+    {
+        float timeElapsed = 0f;
+        float initialVolume = startVolume;
+        while (timeElapsed < duration)
+        {
+            ambientAudioSource.volume = Mathf.Lerp(initialVolume, endVolume, timeElapsed / duration);
+            timeElapsed += Time.deltaTime;
+            yield return null;
+        }
+        ambientAudioSource.volume = endVolume;
     }
 
     public void TeleportPlayer(string skies)

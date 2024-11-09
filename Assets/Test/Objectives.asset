@@ -78,7 +78,7 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Go out and find the that ''Tree'' big bro mentioned!'
         NormalText: Go out and find the that 'Tree' big bro mentioned!
-  - ObjectiveKey: 10 Peti
+  - ObjectiveKey: 13 Peti
     ObjectiveTitle:
       GlocText: '*Brother''s Chest'
       NormalText: Brother's Chest
@@ -103,7 +103,7 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Take the map!'
         NormalText: Take the map!
-  - ObjectiveKey: 11 Escape
+  - ObjectiveKey: 14 Escape
     ObjectiveTitle:
       GlocText: '*Escape'
       NormalText: Escape
@@ -118,11 +118,16 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Get out!'
         NormalText: Get out!
-  - ObjectiveKey: 12 Forest
+  - ObjectiveKey: 10 Forest
     ObjectiveTitle:
       GlocText: '*Through The Forest'
       NormalText: Through The Forest
     SubObjectives:
+    - SubObjectiveKey: aa
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Follow the path!'
+        NormalText: Follow the path!
     - SubObjectiveKey: a
       CompleteCount: 0
       ObjectiveText:
@@ -138,3 +143,75 @@ MonoBehaviour:
       ObjectiveText:
         GlocText: '*Cross the river!'
         NormalText: Cross the river!
+    - SubObjectiveKey: d
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Follow the path!'
+        NormalText: Follow the path!
+  - ObjectiveKey: 1 Info Siki Hurip
+    ObjectiveTitle:
+      GlocText: '*Siki Kahuripan Information'
+      NormalText: Siki Kahuripan Information
+    SubObjectives:
+    - SubObjectiveKey: a
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Ask the villagers about the seed of life you are looking for!'
+        NormalText: Ask the villagers about the seed of life you are looking for!
+    - SubObjectiveKey: b
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Find the key to Old Grandpa''s house!'
+        NormalText: Find the key to Old Grandpa's house!
+  - ObjectiveKey: 2 Inn Looking
+    ObjectiveTitle:
+      GlocText: '*Looking for an Inn'
+      NormalText: Looking for an Inn
+    SubObjectives:
+    - SubObjectiveKey: a
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Ask the Village Head about accommodation in Sukaratu Village!'
+        NormalText: Ask the Village Head about accommodation in Sukaratu Village!
+  - ObjectiveKey: 11 Into The Forest
+    ObjectiveTitle:
+      GlocText: '*Into The Forest'
+      NormalText: Into The Forest
+    SubObjectives:
+    - SubObjectiveKey: a
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Walk into the depths of the forest!'
+        NormalText: Walk into the depths of the forest!
+  - ObjectiveKey: 12 Old Tree
+    ObjectiveTitle:
+      GlocText: '*Old Tree'
+      NormalText: Old Tree
+    SubObjectives:
+    - SubObjectiveKey: a
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Investigate the area around the tree!'
+        NormalText: Investigate the area around the tree!
+    - SubObjectiveKey: b
+      CompleteCount: 4
+      ObjectiveText:
+        GlocText: '*Observe the ancient characters carved on stones around the tree!
+          ([count]/4)'
+        NormalText: Observe the ancient characters carved on stones around the tree!
+          ([count]/4)
+    - SubObjectiveKey: c
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Go back to Sukaratu Village!'
+        NormalText: Go back to Sukaratu Village!
+  - ObjectiveKey: 15 One Step Closer
+    ObjectiveTitle:
+      GlocText: '*One Step Towards Siki Kahuripan'
+      NormalText: One Step Towards Siki Kahuripan
+    SubObjectives:
+    - SubObjectiveKey: a
+      CompleteCount: 0
+      ObjectiveText:
+        GlocText: '*Go back to the forest, following the map left by Big Bro Windra!'
+        NormalText: Go back to the forest, following the map left by Big Bro Windra!
